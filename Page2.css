@@ -1,0 +1,552 @@
+body{
+    background-color: rgb(17, 12, 49);
+}
+
+main{
+    margin-left: 6rem;
+    margin-right: 2rem;
+    overflow: hidden;
+    
+}
+/* styles for navbar items */
+nav{
+    z-index: 1;
+    position: fixed;
+    top: 0%;
+    margin-top: 0%;
+    background-color: rgb(17, 12, 49);
+}
+
+#ninja{
+    height: 45px;
+    width: 56px;
+   
+     position: absolute;
+     top:6%;
+     left: 1%;
+     background-image: url(./ninja.jpg);
+     background-size: contain;
+     background-repeat: no-repeat;
+ }
+
+
+.navbar{
+ 
+    top:0;
+    list-style: none;
+     right: 0;
+     top:0em;
+     width: 98vw;
+     height: 10vh;
+     margin-top: 0%;
+     padding-top: 1%;
+  
+}
+/* media queries of navbar as per different screen size */
+
+@media screen and (max-width:1100px) {
+    .navbar li{
+        display: block;
+    }
+    .toright{
+    
+        width: 70vw !important;
+        display: flex;
+      
+    }
+    #account-dp{
+        position: relative ;
+        left: 0em;
+        right: 30rem;
+    }
+    #bell{
+        position: relative ;
+        left: 0 ;
+    }
+   #carousel{
+    margin-top: 15rem !important;
+   }
+}
+@media screen and (max-width:650px){
+    #account-dp{
+        position: absolute;
+        left: 0em !important;
+        top: 3rem !important;
+    }
+    #bell{
+        position: absolute ;
+        left: 0em !important ;
+        top:3em !important;
+    }
+    .navbar{
+        margin-bottom: 11rem;
+    }
+  
+}
+
+nav li{
+    display: inline-block;
+    list-style: none;
+    color: aliceblue;
+    margin:0em 2em 3em 2em;
+    
+}
+
+h4{
+   margin: 0%;
+   word-break: break-all;
+}
+
+#searchbar{
+    position: absolute;
+    top:0;
+    left: 0px;
+   
+}
+#searchbar input{
+ width: 20em;
+ height: 2em;
+padding-left:34px;
+border-radius:0px 10px 0px 10px;
+
+}
+#searchbar input:focus{
+    color: #fff;
+}
+
+#searchbar .fa-magnifying-glass{
+    position: absolute;
+    top: 0;
+    margin-left: 0.3rem;
+   margin-top: 0.45rem;
+ 
+}  
+#searchbar .fa-microphone{
+  position: absolute;
+  top: 0;
+ margin-left: 17rem;
+ margin-top: 0.45rem;
+
+}
+
+#bell div{
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
+  background-color: red;
+  border-radius: 1px solid black;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#bell{
+
+    position: relative;
+    right: 0rem;
+    left: 17rem;
+   
+    font-size: larger;
+}
+
+#account-dp{
+    position: absolute;
+    left: 32rem;
+}
+#account-dp img{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.toright{
+    float: right ;
+    width: 50%;
+   display: flex;
+  
+
+    position: relative;
+    right: 100px;
+}
+form input{
+    background-color: rgb(33, 23, 95);
+    border: none;
+    width: 100%;
+    
+}
+/* below is the css style for "card" */
+#container{
+    width: 60vw;
+  
+    height: auto;
+    display: inline-block;
+    margin: auto;
+}
+#card{
+    margin-top: 13%;
+    margin-right: 0%;
+    width: 60vw;
+    height: 60vh;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+   background-color: rgb(63, 63, 97);
+}
+#img-div{
+    height: 100%;
+    width: 50%;
+    margin-right: 0%;
+    background-image: url(./coldplay.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#img-div-brief{
+    height: 85%;
+    width: 45%;
+    padding-left: 1%;
+    color: #fff;
+}
+.brief{
+    font-size: 0.8em;
+}
+#img-div-brief button{
+    width: 40%;
+    height: 13%;
+    color: #fff;
+    margin-top: 2%;
+    background:linear-gradient(45deg,blue,pink);
+    border: 0px;
+    border-radius: 20px 20px 20px 20px;
+    
+}
+#img-div-brief button:hover{
+    cursor: pointer;
+    box-shadow: 3px 0px 2px 2px grey;
+}
+#img-div-brief strong{
+    font-size: 2em;
+}
+/* below is the css style for music queue */
+#music-queue{
+    height: 90vh;
+    width: 60vw;
+  
+    margin-top: 2%;
+    display: inline-block;
+}
+#music-queue .queue-items:nth-child(2n+1){
+    background-color: rgb(79, 95, 130);
+}
+#music-queue .queue-items:nth-child(2n){
+    background-color: rgb(122, 137, 169);
+}
+/* below is the css property for aside section */
+aside{
+  
+    display: inline-block;
+    vertical-align: top;
+    width: 22vw;
+    height: 150vh;
+    color: aliceblue;
+    margin: 2%;
+
+ margin-top: 10%;
+
+   display: inline-flex;
+   flex-direction: column;
+}
+#aside-up{
+  height: auto;
+  width: 100%;
+    margin-top: 8%;
+}
+#aside-down{
+  height: 8em;
+  width: 100%;
+}
+section{
+    width: 60vw;
+    display: inline-block;
+}
+.list-items{
+   
+ 
+
+    margin-top: 2%;
+   display: flex;
+   justify-content: space-between;
+}
+#list-items-img1{
+  
+    width: 30%;
+    /* height: 100%; */
+    background-image: url(./cover2.jpg);
+    background-size: cover;
+}
+#list-items-img2{
+  
+    width: 30%;
+    /* height: 100%; */
+    background-image: url(./elevated.jpg);
+    background-size: cover;
+}
+#list-items-img3{
+  
+    width: 30%;
+    /* height: 100%; */
+    background-image: url(./offshore.jpg);
+    background-size: cover;
+}
+.list-items-brief{
+    width: 67%;
+    /* height: 100%; */
+
+    position: relative;
+}
+#rr1{
+    position: absolute;
+    visibility: hidden;
+}
+#rr1:checked ~ .dropdown-menu{
+    height: 100%;
+    width: 60%;
+
+    visibility:visible;
+}
+#rr2{
+    position: absolute;
+    visibility: hidden;
+}
+#rr2:checked ~ .dropdown-menu{
+    height: 100%;
+    width: 60%;
+
+    visibility:visible;
+}
+#rr3{
+    position: absolute;
+    visibility: hidden;
+}
+#rr3:checked ~ .dropdown-menu{
+    height: 100%;
+    width: 60%;
+   
+    visibility:visible;
+}
+.dropdown-menu{
+   height: 0%;
+   width: 0%;
+   position: absolute;
+   right: 7%;
+   top:35%;
+   visibility: hidden;
+   background-color: #fff;
+  color: black;
+  padding-left: 3%;
+}
+#music-queue{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.queue-items{
+    width: auto;
+    height: 12%;
+    position: relative;
+
+
+}
+.toleft2{
+    width: 20%;
+    height: 100%;
+
+    position: absolute;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 130px;
+}
+.toright2{
+    width: 7%;
+    height: 100%;
+  
+     position: absolute;
+    right: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    justify-content: space-between;
+}
+.toleft3{
+    width: 50%;
+    height: 100%;
+
+    position: absolute;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 100px;
+}
+.queue-items img{
+    height: 100%;
+    width: 35%;
+   
+}
+.aside-down-items img{
+    height: 100%;
+    width: 45%;
+   
+}
+.aside-down-items{
+    width: 100%; 
+     height: 55%; 
+
+    margin-top: 3%;
+    position: relative;
+}
+/* media queries of the webpage (except the navbar) ,as per different screen size */
+@media screen and (max-width:1200px) {
+ 
+    aside{
+        width: 60vw;
+        margin-left: 0%;
+    
+            flex-direction: row !important;
+            width: 80vw;
+           justify-content: space-between;
+    }
+    #aside-up{
+        width: 42%;
+    }
+    #aside-down{
+        width: 42%;
+    }
+ 
+}
+@media screen and (max-width:1100px) {
+    #card{
+        margin-top: 45%;
+    }
+    #img-div{
+        background-size: contain;
+    }
+}
+@media screen and (max-width:870px) {
+    #card{
+        width: 50vw !important;
+        margin-top: 65%;
+     
+    }
+}
+@media screen and (max-width:790px) {
+    #card{
+        margin-top: 65%;
+   
+    }
+    aside{
+       display: block;
+        width: 60vw;
+        margin: auto;
+        margin-top: 7%;
+    }
+    #aside-up{
+        width: 100%;
+        
+    }
+    #aside-down{
+      width: 100%;
+     height: 10em;
+    }
+    #music-queue{
+        margin-top: 12%;
+       }
+}
+@media screen and (max-width:590px) {
+    #card{
+        margin-top: 105%;
+      
+         width: 60vw !important;
+         height:80vh;
+    }
+   #music-queue{
+    margin-top: 30%;
+   }
+}
+
+/* 
+css style for the heart and plus icons */
+.fa-heart:hover{
+    cursor: pointer;
+    color: red;
+}
+.fa-plus:hover{
+    transform: rotate(90deg);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    color:cornflowerblue;
+}
+/* below is the css style for the audio tab */
+#player{
+  
+    width: 98vw;
+    height: 15vh;
+    display: flex;
+    position: fixed;
+    bottom: 0%;
+    justify-content: space-evenly;
+    background-color: rgb(80, 84, 83);
+}
+#player div{
+    width: 25%;
+    height: 100%;
+    display: flex;
+ 
+}
+#player img{
+    height: 70%;
+    width: 20%;
+    margin-top: 0.9em;
+  
+}
+#controller{
+    display: flex;
+    flex-direction: column;
+    width: 40% !important;
+}
+#player i:hover{
+    cursor: pointer;
+}
+#controller-up{
+    width: 80% !important;   
+
+    margin-left: 3em;
+    padding-left: 6em;
+}
+#controller-up i{
+    /* margin: 0.7em; */
+    padding-left: 1.3em;
+    margin-top: 1em;
+    margin-left: 0.3em;
+}
+#controller-down{
+   width: 100% !important;
+
+    
+}
+#controller-down input{
+    width: 90%;
+    margin: auto;
+   
+}
+
+#output-controller i{
+    margin-left: 1.9em;
+    margin-top: 2.5em;
+   
+}
+#output-controller input{
+    width: 20%;
+}

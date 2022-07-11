@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- please give good marks , worked for almost a month on this , completely done by myself 😁 -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/962e5113f8.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&display=swap" rel="stylesheet">
+    <title>Ninja Music Player</title>
+</head>
+
+<body>
+    <!-- here is the navigation bar -->
+    <header id="head">
+        <nav>
+            <div id="ninja"></div>
+            <ul class="navbar">
+
+                <div id="ninja-dp"></div>
+                <li id="brand" class="toleft"> <span>Ninja <strong>Studio</strong></span></li>
+                <li class="toleft">Favourites</li>
+
+                <div class="toright">
+                    <li class="toleft">
+                        <div id="searchbar">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <form>
+                                <input style="color: #fff;" type="text" placeholder="search">
+                            </form>
+                            <i class="fa-solid fa-microphone"></i>
+                        </div>
+                    </li>
+                    <li id="bell" class="toleft">
+                        <i class="fa-solid fa-bell">
+                            <div></div>
+                        </i>
+                    </li>
+                    <li class="toleft">
+                        <div id="account-dp">
+                            <img src="./dp.jpeg">
+                        </div>
+                    </li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <!-- navigation bar ends here -->
+
+    <!-- below is the complete main section -->
+    <main>
+        <!-- "main-section" encloses the whole content -->
+        <section id="main-section">
+            <!-- below is the carousel of music albums -->
+            <section id="carousel">
+                <a href="Page2.html">
+                    <div id="slider">
+
+                        <figure class="fig">
+
+                            <img src="./carousel1.jpg" alt="">
+                            <img src="./carousel2.jpg" alt="">
+                            <img src="./elev_shubh.jpg" alt="">
+                            <img src="./295_sidhu.jpg" alt="">
+                            <img src="./cover3.jpg">
+                            <div id="moveholder">
+
+                                <div class="move"></div>
+                                <div class="move"></div>
+                                <div class="move"></div>
+                                <div class="move"></div>
+                                <div class="move"></div>
+                            </div>
+
+                        </figure>
+                    </div>
+                </a>
+            </section>
+            <!-- carousel part ends here -->
+            <!-- this below checkbox helps to retract and expand the queue  -->
+            <input id="queue-container-vanish-button" type="checkbox">
+            <!-- below written label works to check or uncheck the above checkbox -->
+            <label for="queue-container-vanish-button"><i id="vanish-button"
+                    class="fa-solid fa-circle-plus"></i></i></label>
+            <!-- code for aside section starts from here -->
+            <aside>
+                <!-- "queue-container" holds the entire content of queue -->
+                <div id="queue-container">
+                    <!-- "Queue-nav" holds the banners of queue i.e. "Queue" & "View" -->
+                    <div id="Queue-nav">
+                        <input id="dropdown-check" type="checkbox">
+                        <div id="Queue-banner">
+                            <h2>Queue</h2>
+                        </div>
+                        <div id="Queue-fun-button">
+                            <p>View <label for="dropdown-check"><i class="fa-solid fa-angle-down"></i></label></p>
+
+                        </div>
+                        <!-- "dropdown-menu" appears when you click on the arrow button beside "view" -->
+                        <div class="dropdown-menu">
+                            <div id="menu-item-1" class="menu-item">
+                                <h4>Play Now&emsp;<i class="fa-solid fa-play"></i></h4>
+                            </div>
+                            <div id="menu-item-2" class="menu-item">
+                                <h4>Add to Watchlist &nbsp; <i class="fa-solid fa-plus"></i></h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- "queue-items" are the list items of the queue -->
+                    <div class="queue-items">
+                        <div class="toleft2">
+                            <span><b>1</b></span>
+                            <img src="./long_ride.jpg">
+                            <p><b>Mirage</b><br>else</p>
+                        </div>
+                        <div class="toright2">
+                            <i class="fa-solid fa-heart"></i>
+
+                        </div>
+                    </div>
+                    <div class="queue-items">
+                        <div class="toleft2">
+                            <span><b>1</b></span>
+                            <img src="./05AbbeyRoad.jpg">
+                            <p><b>Abbey </b><br>else</p>
+                        </div>
+                        <div class="toright2">
+                            <i class="fa-solid fa-heart"></i>
+
+                        </div>
+                    </div>
+                    <div class="queue-items">
+                        <div class="toleft2">
+                            <span><b>1</b></span>
+                            <img src="./naja.jpg">
+                            <p><b>NaJa</b><br>else</p>
+                        </div>
+                        <div class="toright2">
+                            <i class="fa-solid fa-heart"></i>
+
+                        </div>
+                    </div>
+                    <div class="queue-items">
+                        <div class="toleft2">
+                            <span><b>1</b></span>
+                            <img src="./velvet.jpg">
+                            <p><b>Velvet</b><br>else</p>
+                        </div>
+                        <div class="toright2">
+                            <i class="fa-solid fa-heart"></i>
+
+                        </div>
+                    </div>
+                    <div class="queue-items">
+                        <div class="toleft2">
+                            <span><b>1</b></span>
+                            <img src="./nirvana.jpg">
+                            <p><b>Nirva</b><br>else</p>
+                        </div>
+                        <div class="toright2">
+                            <i class="fa-solid fa-heart"></i>
+
+                        </div>
+                    </div>
+                    <div class="queue-items">
+                        <div class="toleft2">
+                            <span><b>1</b></span>
+                            <img src="./naim.jpeg">
+                            <p><b>Naim</b><br>else</p>
+                        </div>
+                        <div class="toright2">
+                            <i class="fa-solid fa-heart"></i>
+
+                        </div>
+                    </div>
+                    <div class="queue-items">
+                        <div class="toleft2">
+                            <span><b>1</b></span>
+                            <img src="./twigs.jpg">
+                            <p><b>Twigs</b><br>else</p>
+                        </div>
+                        <div class="toright2">
+                            <i class="fa-solid fa-heart"></i>
+
+                        </div>
+                    </div>
+                    <div class="queue-items">
+                        <div class="toleft2">
+                            <span><b>4</b></span>
+                            <img src="./minor_threat.jpg">
+                            <p><b>Minor</b><br>else</p>
+                        </div>
+                        <div class="toright2">
+                            <i class="fa-solid fa-heart"></i>
+
+                        </div>
+                    </div>
+                    <div class="queue-items">
+                        <div class="toleft2">
+                            <span><b>5</b></span>
+                            <img src="./295.jpg">
+                            <p><b>2 9 5 </b><br>else</p>
+                        </div>
+                        <div class="toright2">
+                            <i class="fa-solid fa-heart"></i>
+
+                        </div>
+                    </div>
+                    <div class="queue-items">
+                        <div class="toleft2">
+                            <span><b>6</b></span>
+                            <img src="./elevated.jpg">
+                            <p><b>Elevat</b><br>else</p>
+                        </div>
+                        <div class="toright2">
+                            <i class="fa-solid fa-heart"></i>
+
+                        </div>
+                    </div>
+
+                </div>
+            </aside>
+            <!-- aside section code ends here  -->
+            <section>
+                <!-- "latest-release" holds the entire content of the latest Release section -->
+                <div id="latest-release">
+                    <div id="latest-release-banner">
+                        <h2>Latest Release</h2>
+                    </div>
+                    <div id="latest-release-albums">
+                        <!-- "albums" class holds the four albums -->
+                        <div class="albums">
+                            <div class="album-desc">
+                                <img src="./onism.jpg">
+                                <div class="album-desc-text">
+                                    <p>Onism<br>Feb 2 , 1999</p>
+                                </div>
+                            </div>
+                            <div class="ellipsis-button">
+                                <label for="album-checkbox-1">
+                                    <!-- whenever someone clicks on below ellipsis icon a dropdown will appear -->
+                                    <i class="fa-solid fa-ellipsis"></i>
+                                </label>
+                            </div>
+                            <!-- below checkbox triggers the dropdown meu of ellipsis button -->
+                            <input id="album-checkbox-1" type="checkbox">
+                            <div class="albums-dropdown">
+                                <div class="albums-dropdown-item1">
+                                    <h4>Play Now</h4>
+                                </div>
+                                <div class="albums-dropdown-item2">
+                                    <h4>Similar Albums</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="albums">
+                            <div class="album-desc">
+                                <img src="./no_love.jpg">
+                                <div class="album-desc-text">
+                                    <p>No Love<br>Feb 2 , 1999</p>
+                                </div>
+                            </div>
+                            <div class="ellipsis-button">
+                                <label for="album-checkbox-2">
+                                      <!-- whenever someone clicks on below ellipsis icon a dropdown will appear -->
+                                    <i class="fa-solid fa-ellipsis"></i>
+                                </label>
+                            </div>
+                            <input id="album-checkbox-2" type="checkbox">
+                            <div class="albums-dropdown">
+                                <div class="albums-dropdown-item1">
+                                    <h4>Play Now</h4>
+                                </div>
+                                <div class="albums-dropdown-item2">
+                                    <h4>Similar Albums</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="albums">
+                            <div class="album-desc">
+                                <img src="./offshore.jpg">
+                                <div class="album-desc-text">
+                                    <p>Offshore<br>Feb 2 , 1999</p>
+                                </div>
+                            </div>
+                            <div class="ellipsis-button">
+                                <label for="album-checkbox-3">
+                                      <!-- whenever someone clicks on below ellipsis icon a dropdown will appear -->
+                                    <i class="fa-solid fa-ellipsis"></i>
+                                </label>
+                            </div>
+                            <input id="album-checkbox-3" type="checkbox">
+                            <div class="albums-dropdown">
+                                <div class="albums-dropdown-item1">
+                                    <h4>Play Now</h4>
+                                </div>
+                                <div class="albums-dropdown-item2">
+                                    <h4>Similar Albums</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="albums">
+                            <div class="album-desc">
+                                <img src="./we_rollin.jpg">
+                                <div class="album-desc-text">
+                                    <p>We Rollin<br>Feb 2 , 1999</p>
+                                </div>
+                            </div>
+                            <div class="ellipsis-button">
+                                <label for="album-checkbox-4">
+                                     <!-- whenever someone clicks on below ellipsis icon a dropdown will appear -->
+                                    <i class="fa-solid fa-ellipsis"></i>
+                                </label>
+                            </div>
+                            <input id="album-checkbox-4" type="checkbox">
+                            <div class="albums-dropdown">
+                                <div class="albums-dropdown-item1">
+                                    <h4>Play Now</h4>
+                                </div>
+                                <div class="albums-dropdown-item2">
+                                    <h4>Similar Albums</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- latest release section ends here -->
+            <section>
+                <!-- "Popular-artists" id holds the entire content of the popular artists part -->
+                <div id="Popular-artists">
+                    <h3 style="margin-top:0% ;">Popular Artists</h3>
+                    <div id="Popular-artists-circle-outer-div">
+                        <!-- when you hover over this "flip-card" class , the front face rotates by 180deg in the z axis -->
+                        <a class="new_page" href="Page2.html">
+                            <div class="flip-card">
+                                <div class="flip-card-inner">
+                                    <div class="flip-front">
+                                        <img src="./ed_shereen.jpg" alt="">
+                                    </div>
+                                    <div class="flip-back">
+                                        <h2>Ed Shereen</h2>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="new_page" href="Page2.html">
+                              <!-- when you hover over this "flip-card" class , the front face rotates by 180deg in the z axis -->
+                            <div class="flip-card">
+                                <div class="flip-card-inner">
+                                    <div class="flip-front">
+                                        <img src="./Charlie-Puth.jpg" alt="">
+                                    </div>
+                                    <div class="flip-back">
+                                        <h2>Charlie Puth</h2>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="new_page" href="Page2.html">
+                              <!-- when you hover over this "flip-card" class , the front face rotates by 180deg in the z axis -->
+                            <div class="flip-card">
+                                <div class="flip-card-inner">
+                                    <div class="flip-front">
+                                        <img src="./coldplay.jpg" alt="">
+                                    </div>
+                                    <div class="flip-back">
+                                        <h2>Cold<br>play</h2>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="new_page" href="Page2.html">
+                              <!-- when you hover over this "flip-card" class , the front face rotates by 180deg in the z axis -->
+                            <div class="flip-card">
+                                <div class="flip-card-inner">
+                                    <div class="flip-front">
+                                        <img src="./Imagine_Dragons.jpg" alt="">
+                                    </div>
+                                    <div class="flip-back">
+                                        <h2>Imagine Dragons</h2>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="new_page" href="Page2.html">
+                              <!-- when you hover over this "flip-card" class , the front face rotates by 180deg in the z axis -->
+                            <div class="flip-card">
+                                <div class="flip-card-inner">
+                                    <div class="flip-front">
+                                        <img src="./bruno.jpg" alt="">
+                                    </div>
+                                    <div class="flip-back">
+                                        <h2>Bruno</h2>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+            </section>
+            <section>
+                <!-- "stations" id contains all the contents of the stations part  -->
+                <div id="stations">
+                    <!-- "stations-logo" div helps to make the logo of stations -->
+                    <div id="stations-logo">
+                        <div id="stations-logo-div1"></div>
+                        <div id="stations-logo-div2"></div>
+                        <div id="stations-logo-div3">
+                            <i class="fa-solid fa-podcast"></i>
+                            <h3>Stations</h3>
+                        </div>
+                    </div>
+
+                    <div id="station-circles">
+                        <div id="sc-1" class="station-circle">
+                            <img src="./love.jpg">
+
+                        </div>
+                        <div id="sc-2" class="station-circle">
+                            <img src="./workout.jpg">
+                        </div>
+                        <div id="sc-3" class="station-circle">
+                            <img src="./chill.jpg">
+                        </div>
+                        <div id="sc-4" class="station-circle">
+                            <img src="./pop.jpg">
+                        </div>
+                        <div id="sc-5" class="station-circle">
+                            <img src="./retro.jpg">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <!-- whenever someone hover over this cards , a transparent div appears from above and cover it 90% -->
+                <div id="cards">
+                    <div id="card1" class="card">
+                        <div class="card-inner">
+                            <h2>Party</h2>
+                        </div>
+                    </div>
+                    <div id="card2" class="card">
+                        <div class="card-inner">
+                            <h2>Indian Classical</h2>
+                        </div>
+                    </div>
+                    <div id="card3" class="card">
+                        <div class="card-inner">
+                            <h2>Long Drive</h2>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <section>
+                <div class="latest-region">
+                    <div class="latest-region-banner">
+                        <h3>Latest English</h3>
+                    </div>
+                    <div class="latest-region-content">
+
+                        <!-- whenever someone hover over regions , a transparent div appears from above and cover it 90% -->
+                        <div id="rgf-1" class="regions">
+                            <div class="card-inner">
+                                <h4>Song</h4>
+                                <h5>Feb, 2022</h5>
+                            </div>
+                        </div>
+                        <!-- whenever someone hover over regions , a transparent div appears from above and cover it 90% -->
+                        <div id="rgf-2" class="regions">
+                            <div class="card-inner">
+                                <h4>Song</h4>
+                                <h5>Feb, 2022</h5>
+                            </div>
+                        </div>
+                        <!-- whenever someone hover over regions , a transparent div appears from above and cover it 90% -->
+                        <div id="rgf-3" class="regions">
+                            <div class="card-inner">
+                                <h4>Song</h4>
+                                <h5>Feb, 2022</h5>
+                            </div>
+                        </div>
+                        <!-- whenever someone hover over regions , a transparent div appears from above and cover it 90% -->
+                        <div id="rgf-4" class="regions">
+                            <div class="card-inner">
+                                <h4>Song</h4>
+                                <h5>Feb, 2022</h5>
+                            </div>
+                        </div>
+                        <!-- whenever someone hover over regions , a transparent div appears from above and cover it 90% -->
+                        <div id="rgf-5" class="regions">
+                            <div class="card-inner">
+                                <h4>Song</h4>
+                                <h5>Feb, 2022</h5>
+                            </div>
+                        </div>
+                        <!-- whenever someone hover over regions , a transparent div appears from above and cover it 90% -->
+                        <div id="rgf-6" class="regions">
+                            <div class="card-inner">
+                                <h4>Song</h4>
+                                <h5>Feb, 2022</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="latest-region">
+                    <div class="latest-region-banner">
+                        <h3>Latest Punjabi</h3>
+                    </div>
+                    <div class="latest-region-content">
+
+                          <!-- whenever someone hover over regions , a transparent div appears from above and cover it 90% -->
+                        <div id="rgs-1" class="regions">
+                            <div class="card-inner">
+                                <h4>Song</h4>
+                                <h5>Feb, 2022</h5>
+                            </div>
+                        </div>
+                         <!-- whenever someone hover over regions , a transparent div appears from above and cover it 90% -->
+                        <div id="rgs-2" class="regions">
+                            <div class="card-inner">
+                                <h4>Song</h4>
+                                <h5>Feb, 2022</h5>
+                            </div>
+                        </div>
+                         <!-- whenever someone hover over regions , a transparent div appears from above and cover it 90% -->
+                        <div id="rgs-3" class="regions">
+                            <div class="card-inner">
+                                <h4>Song</h4>
+                                <h5>Feb, 2022</h5>
+                            </div>
+                        </div>
+                         <!-- whenever someone hover over regions , a transparent div appears from above and cover it 90% -->
+                        <div id="rgs-4" class="regions">
+                            <div class="card-inner">
+                                <h4>Song</h4>
+                                <h5>Feb, 2022</h5>
+                            </div>
+                        </div>
+                         <!-- whenever someone hover over regions , a transparent div appears from above and cover it 90% -->
+                        <div id="rgs-5" class="regions">
+                            <div class="card-inner">
+                                <h4>Song</h4>
+                                <h5>Feb, 2022</h5>
+                            </div>
+                        </div>
+                         <!-- whenever someone hover over regions , a transparent div appears from above and cover it 90% -->
+                        <div id="rgs-6" class="regions">
+                            <div class="card-inner">
+                                <h4>Song</h4>
+                                <h5>Feb, 2022</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="latest-region">
+                    <div class="latest-region-banner">
+                        <h3>Latest Bengali</h3>
+                    </div>
+                    <div class="latest-region-content">
+
+                        <!-- whenever someone hover over regions , a transparent div appears from above and cover it 90% -->
+                        <div id="rgt-1" class="regions">
+                            <div class="card-inner">
+                                <h4>Song</h4>
+                                <h5>Feb, 2022</h5>
+                            </div>
+                        </div>
+                         <!-- whenever someone hover over regions , a transparent div appears from above and cover it 90% -->
+                        <div id="rgt-2" class="regions">
+                            <div class="card-inner">
+                                <h4>Song</h4>
+                                <h5>Feb, 2022</h5>
+                            </div>
+                        </div>
+                         <!-- whenever someone hover over regions , a transparent div appears from above and cover it 90% -->
+                        <div id="rgt-3" class="regions">
+                            <div class="card-inner">
+                                <h4>Song</h4>
+                                <h5>Feb, 2022</h5>
+                            </div>
+                        </div>
+                         <!-- whenever someone hover over regions , a transparent div appears from above and cover it 90% -->
+                        <div id="rgt-4" class="regions">
+                            <div class="card-inner">
+                                <h4>Song</h4>
+                                <h5>Feb, 2022</h5>
+                            </div>
+                        </div>
+                         <!-- whenever someone hover over regions , a transparent div appears from above and cover it 90% -->
+                        <div id="rgt-5" class="regions">
+                            <div class="card-inner">
+                                <h4>Song</h4>
+                                <h5>Feb, 2022</h5>
+                            </div>
+                        </div>
+                         <!-- whenever someone hover over regions , a transparent div appears from above and cover it 90% -->
+                        <div id="rgt-6" class="regions">
+                            <div class="card-inner">
+                                <h4>Song</h4>
+                                <h5>Feb, 2022</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="extra_space">
+
+            </section>
+    </main>
+
+    <footer>
+        <!-- this is the music player tab in footer-->
+        <div id="player">
+            <div>
+
+                <img src="./john.jpg">&nbsp;&nbsp;
+
+                <div style="width:65% ;height:80% ;margin-top: 0.7em;padding-top: 0.2em;">
+                    <p style="word-spacing: 0.2em;"><b>Imagination</b><br> John Lenon </p>
+
+                    <i style="margin-left: 2em;" class="fa-solid fa-heart"></i>&nbsp
+                    <i class="fa-solid fa-ban"></i>
+
+
+                </div>
+
+            </div>
+
+            <div id="controller">
+                <div id="controller-up">
+                    <i class="fa-solid fa-shuffle"></i>
+                    <i class="fa-solid fa-backward-step"></i>
+                    <i class="fa-solid fa-pause"></i>
+                    <i class="fa-solid fa-forward-step"></i>
+                    <i class="fa-solid fa-repeat"></i>
+                </div>
+                <div id="controller-down">
+                    <h5>01:23</h5>&nbsp;
+                    <input type="range">&nbsp;
+                    <h5>08:53</h5>
+                </div>
+            </div>
+            <div id="output-controller">
+                <i class="fa-solid fa-music"></i>
+                <i class="fa-solid fa-computer"></i>
+                <i class="fa-solid fa-volume-low"></i>&nbsp;
+                <input type="range">&nbsp;
+                <i class="fa-solid fa-download"></i>
+            </div>
+
+
+        </div>
+    </footer>
+</body>
+
+</html>
