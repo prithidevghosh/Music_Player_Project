@@ -24,7 +24,7 @@ nav{
      position: absolute;
      top:6%;
      left: 1%;
-     background-image: url(./ninja.jpg);
+     background-image: url(./Image/ninja.jpg);
      background-size: contain;
      background-repeat: no-repeat;
  }
@@ -195,7 +195,7 @@ form input{
     height: 100%;
     width: 50%;
     margin-right: 0%;
-    background-image: url(./coldplay.jpg);
+    background-image: url(./Image/coldplay.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -280,21 +280,21 @@ section{
   
     width: 30%;
     /* height: 100%; */
-    background-image: url(./cover2.jpg);
+    background-image: url(./Image/cover2.jpg);
     background-size: cover;
 }
 #list-items-img2{
   
     width: 30%;
     /* height: 100%; */
-    background-image: url(./elevated.jpg);
+    background-image: url(./Image/elevated.jpg);
     background-size: cover;
 }
 #list-items-img3{
   
     width: 30%;
     /* height: 100%; */
-    background-image: url(./offshore.jpg);
+    background-image: url(./Image/offshore.jpg);
     background-size: cover;
 }
 .list-items-brief{

@@ -30,7 +30,7 @@ nav{
     position: absolute;
     top:6%;
     left: 1%;
-    background-image: url(./ninja.jpg);
+    background-image: url(./Image/ninja.jpg);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -863,17 +863,17 @@ width: 3em;
    
 }
 #card1{
-    background-image: url(./party.jpg);
+    background-image: url(./Image/party.jpg);
     background-size: contain;
     background-repeat: no-repeat;
 }
 #card2{
-    background-image: url(./classical.jpg);
+    background-image: url(./Image/classical.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 #card3{
-    background-image: url(./long_ride.jpg);
+    background-image: url(./Image/long_ride.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -916,75 +916,75 @@ width: 3em;
 
 }
 #rgf-1{
-    background-image: url(./cover1.jpg);
+    background-image: url(./Image/cover1.jpg);
     background-size:cover ;
 }
 #rgf-2{
-    background-image: url(./cover2.jpg);
+    background-image: url(./Image/cover2.jpg);
     background-size:cover ;
 }
 #rgf-3{
-    background-image: url(./cover3.jpg);
+    background-image: url(./Image/cover3.jpg);
     background-size:cover ;
 }
 #rgf-4{
-    background-image: url(./cover4.jpg);
+    background-image: url(./Image/cover4.jpg);
     background-size:cover ;
 }
 #rgf-5{
-    background-image: url(./onism.jpg);
+    background-image: url(./Image/onism.jpg);
     background-size:cover ;
 }
 #rgf-6{
-    background-image: url(./party.jpg);
+    background-image: url(./Image/party.jpg);
     background-size:cover ;
 }
 #rgs-1{
-    background-image: url(./elevated.jpg);
+    background-image: url(./Image/elevated.jpg);
     background-size:cover ;
 }
 #rgs-2{
-    background-image: url(./the_last_ride.jpg);
+    background-image: url(./Image/the_last_ride.jpg);
     background-size:cover ;
 }
 #rgs-3{
-    background-image: url(./295.jpg);
+    background-image: url(./Image/295.jpg);
     background-size:cover ;
 }
 #rgs-4{
-    background-image: url(./sarkar.jpg);
+    background-image: url(./Image/sarkar.jpg);
     background-size:cover ;
 }
 #rgs-5{
-    background-image: url(./levels.jpg);
+    background-image: url(./Image/levels.jpg);
     background-size:cover ;
 }
 #rgs-6{
-    background-image: url(./excuses.jpg);
+    background-image: url(./Image/excuses.jpg);
     background-size:cover ;
 }
 #rgt-1{
-    background-image: url(./komola.jpg);
+    background-image: url(./Image/komola.jpg);
     background-size:cover ;
 }
 #rgt-2{
-    background-image: url(./bondhuchol.jpg);
+    background-image: url(./Image/bondhuchol.jpg);
     background-size:cover ;
 }
 #rgt-3{
-    background-image: url(./dugga_elo.jpg);
+    background-image: url(./Image/dugga_elo.jpg);
     background-size:cover ;
 }
 #rgt-4{
-    background-image: url(./tapur_tupur.jpg);
+    background-image: url(./Image/tapur_tupur.jpg);
     background-size:cover ;
 }
 #rgt-5{
-    background-image: url(./lalon.jpg);
+    background-image: url(./Image/lalon.jpg);
     background-size:cover ;
 }
 #rgt-6{
-    background-image: url(./cactus.jpg);
+    background-image: url(./Image/cactus.jpg);
     background-size:cover ;
 }
 /* media queries of navbar below  */
